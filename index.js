@@ -16,7 +16,6 @@ more.addEventListener('click', () =>{
 })
 
 mediaMenu.onclick = () =>{
-	console.log(getComputedStyle(hiddenNav).getPropertyValue('display'))
 	if (getComputedStyle(hiddenNav).getPropertyValue('display') === 'none') {
 		hiddenNav.style.display = 'flex';
 		hiddenNav.style.animation = '0.5s slideIn forwards';
